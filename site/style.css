@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,300&display=swap');
+body {
+    background-image: url("smoroccan-flower-dark.png");
+    margin: 0;
+    
+}
+
+ul {
+    background-color: rgb(37, 138, 124);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 3px 3px 20px 10px rgb(21, 28, 68);
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.active {
+    background-color: goldenrod;
+}
+
+.container1 {
+    text-align: center;
+    max-width: 70%;
+    margin: 15px auto;
+    color: rgba(255, 255, 255, 0.856);
+    line-height: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.container1 h2 {
+    font-family: sans-serif;
+    color: coral;
+}
+
+.container1 img {
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px 10px rgb(21, 28, 68);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container1 p {
+    font-family: 'Prompt', sans-serif;
+    margin-bottom: 40px;
+}
+
+form {
+    color: yellowgreen;
+    margin-bottom: 20px;
+}
+
+form .left, .right {
+    display: inline;
+    margin: 5px 10px;
+}
+
+.input-group-btn button:hover {
+    background-color: crimson;
+}
